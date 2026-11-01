@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Brand header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_hero"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="56dp"
+            android:paddingBottom="64dp">
+
+            <ImageView
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:background="@drawable/bg_circle_white"
+                android:contentDescription="@string/app_name"
+                android:padding="16dp"
+                android:src="@drawable/ic_shield_cross" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/tagline"
+                android:textColor="#CCFFFFFF"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="-36dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/border"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/login_welcome"
+                    android:textColor="@color/text_main"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/login_sub"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_username"
+                    style="@style/Widget.RescueLink.Input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:hint="@string/hint_username">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:inputType="phone"
+                        android:maxLength="13"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_password"
+                    style="@style/Widget.RescueLink.Input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_password"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/text_secondary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_forgot"
+                    style="@style/Widget.RescueLink.Button.Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/forgot_password" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_login"
+                    style="@style/Widget.RescueLink.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/btn_login" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_create"
+                    style="@style/Widget.RescueLink.Button.Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/create_account" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="In danger and cannot sign in?"
+            android:textColor="@color/text_main"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="Tap one. It calls by phone or SMS, no account needed."
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_q_police"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:text="Police"
+                android:textAllCaps="false"
+                android:textColor="@color/svc_police"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0"
+                android:stateListAnimator="@null"
+                app:backgroundTint="@color/tint_blue"
+                app:cornerRadius="28dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_q_fire"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:text="Fire"
+                android:textAllCaps="false"
+                android:textColor="@color/svc_fire"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0"
+                android:stateListAnimator="@null"
+                app:backgroundTint="@color/tint_orange"
+                app:cornerRadius="28dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_q_drrmo"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:text="DRRMO"
+                android:textAllCaps="false"
+                android:textColor="@color/svc_drrmo"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0"
+                android:stateListAnimator="@null"
+                app:backgroundTint="@color/tint_green"
+                app:cornerRadius="28dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_q_medical"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:text="Medical"
+                android:textAllCaps="false"
+                android:textColor="@color/svc_medical"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0"
+                android:stateListAnimator="@null"
+                app:backgroundTint="@color/tint_pink"
+                app:cornerRadius="28dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widget. Only views that RemoteViews supports are used. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:gravity="center"
+    android:background="@drawable/widget_bg">
+
+    <LinearLayout
+        android:id="@+id/btn_w_police"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/widget_btn_police"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/widget_cd_police">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_cat_police"
+            android:tint="@color/white"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/widget_police"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_w_fire"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/widget_btn_fire"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/widget_cd_fire">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_cat_fire"
+            android:tint="@color/white"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/widget_fire"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_w_drrmo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/widget_btn_drrmo"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/widget_cd_drrmo">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_cat_drrmo"
+            android:tint="@color/white"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/widget_drrmo"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_w_medical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/widget_btn_medical"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/widget_cd_medical">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_cat_medical"
+            android:tint="@color/white"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/widget_medical"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 4dp spacing scale -->
+    <!-- Shape -->
+    <dimen name="radius_card">12dp</dimen>
+    <dimen name="radius_button">10dp</dimen>
+    <dimen name="radius_input">10dp</dimen>
+    <!-- Touch targets -->
+    <dimen name="touch_min">48dp</dimen>
+    <dimen name="button_height">44dp</dimen>
+</resources>

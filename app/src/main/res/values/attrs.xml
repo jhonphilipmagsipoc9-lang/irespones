@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme colour tokens. The user's chosen theme (Settings > Appearance) overrides these. -->
+    <attr name="rlPrimary" format="color" />
+    <attr name="rlAccent" format="color" />
+    <attr name="rlPrimaryContainer" format="color" />
+    <attr name="rlSecondaryContainer" format="color" />
+    <attr name="rlPale" format="color" />
+    <attr name="rlHeroStart" format="color" />
+    <attr name="rlHeroEnd" format="color" />
+</resources>

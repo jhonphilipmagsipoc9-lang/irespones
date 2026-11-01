@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- One overlay per theme colour chosen in Settings. Applied on top of Theme.RescueLink. -->
+    <style name="ThemeOverlay.RL.Navy" parent="">
+        <item name="rlPrimary">#0A1F44</item>
+        <item name="rlAccent">#2563EB</item>
+        <item name="rlPrimaryContainer">#DCE6FA</item>
+        <item name="rlSecondaryContainer">#E0EAFF</item>
+        <item name="rlPale">#E8EEF9</item>
+        <item name="rlHeroStart">#0A1F44</item>
+        <item name="rlHeroEnd">#1A4B9B</item>
+    </style>
+    <style name="ThemeOverlay.RL.Ocean" parent="">
+        <item name="rlPrimary">#0B3D91</item>
+        <item name="rlAccent">#0284C7</item>
+        <item name="rlPrimaryContainer">#D6E8FA</item>
+        <item name="rlSecondaryContainer">#DCEEFC</item>
+        <item name="rlPale">#E3F1FB</item>
+        <item name="rlHeroStart">#0B3D91</item>
+        <item name="rlHeroEnd">#0EA5E9</item>
+    </style>
+    <style name="ThemeOverlay.RL.Teal" parent="">
+        <item name="rlPrimary">#0F4C5C</item>
+        <item name="rlAccent">#0D9488</item>
+        <item name="rlPrimaryContainer">#D5EEEA</item>
+        <item name="rlSecondaryContainer">#DDF3F0</item>
+        <item name="rlPale">#E3F5F2</item>
+        <item name="rlHeroStart">#0F4C5C</item>
+        <item name="rlHeroEnd">#14B8A6</item>
+    </style>
+    <style name="ThemeOverlay.RL.Forest" parent="">
+        <item name="rlPrimary">#14532D</item>
+        <item name="rlAccent">#16A34A</item>
+        <item name="rlPrimaryContainer">#DAF0E1</item>
+        <item name="rlSecondaryContainer">#E1F5E7</item>
+        <item name="rlPale">#E6F6EC</item>
+        <item name="rlHeroStart">#14532D</item>
+        <item name="rlHeroEnd">#22A55A</item>
+    </style>
+    <style name="ThemeOverlay.RL.Purple" parent="">
+        <item name="rlPrimary">#3B1F6E</item>
+        <item name="rlAccent">#7C3AED</item>
+        <item name="rlPrimaryContainer">#E6DDF8</item>
+        <item name="rlSecondaryContainer">#EBE3FB</item>
+        <item name="rlPale">#EFE9FB</item>
+        <item name="rlHeroStart">#3B1F6E</item>
+        <item name="rlHeroEnd">#8B5CF6</item>
+    </style>
+    <style name="ThemeOverlay.RL.Orange" parent="">
+        <item name="rlPrimary">#7C2D12</item>
+        <item name="rlAccent">#EA580C</item>
+        <item name="rlPrimaryContainer">#FBE3D3</item>
+        <item name="rlSecondaryContainer">#FDEBDD</item>
+        <item name="rlPale">#FDEFE4</item>
+        <item name="rlHeroStart">#7C2D12</item>
+        <item name="rlHeroEnd">#F97316</item>
+    </style>
+    <style name="ThemeOverlay.RL.Slate" parent="">
+        <item name="rlPrimary">#1F2937</item>
+        <item name="rlAccent">#475569</item>
+        <item name="rlPrimaryContainer">#E2E8F0</item>
+        <item name="rlSecondaryContainer">#E8EDF4</item>
+        <item name="rlPale">#EDF1F6</item>
+        <item name="rlHeroStart">#1F2937</item>
+        <item name="rlHeroEnd">#64748B</item>
+    </style>
+</resources>
