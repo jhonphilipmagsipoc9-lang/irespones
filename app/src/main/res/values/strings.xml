@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iResponse</string>
+    <!-- Paste your Google "Web application" OAuth client ID here to turn on Continue with Google. See GOOGLE_LOGIN_SETUP.md. -->
+    <string name="google_web_client_id" translatable="false">YOUR_WEB_CLIENT_ID.apps.googleusercontent.com</string>
+    <!-- Firebase console > Project settings > General > Web API Key. See FIREBASE_SETUP.md -->
+    <string name="firebase_api_key" translatable="false">AIzaSyAP0HiJN15FXYAiiaTgzwdSxrSH9bnm_kw</string>
+    <string name="tagline">Every Second Matters</string>
+
+    <string name="login_welcome">Welcome back</string>
+    <string name="login_sub">Sign in to continue</string>
+    <string name="hint_username">Mobile or staff number</string>
+    <string name="hint_mobile">Mobile number (you sign in with this)</string>
+    <string name="hint_staff_number">Staff number (sign-in)</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_title">Forgot password</string>
+    <string name="forgot_msg">Passwords are private, even from the Command Center. Tap Forgot Password and we will send a code to your mobile number.</string>
+    <string name="ok">OK</string>
+
+    <string name="reg_title">Create Account</string>
+    <string name="reg_sub">Create your iResponse profile</string>
+    <string name="hint_full_name">Full name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_confirm">Confirm password</string>
+    <string name="hint_contact">Contact number</string>
+    <string name="btn_register">Register</string>
+    <string name="profile_photo">Profile photo (optional)</string>
+    <string name="err_photo">Could not open the photo picker.</string>
+    <string name="back">Back</string>
+    <string name="reg_done_title">Account created</string>
+    <string name="reg_done_msg">Your account is ready. You can now sign in.</string>
+
+    <string name="err_required">This field is required</string>
+    <string name="err_age">Enter a valid age (5 to 120)</string>
+    <string name="err_password_short">Password must be at least 6 characters</string>
+    <string name="err_password_mismatch">Passwords do not match</string>
+    <string name="err_contact">Use 11 digits starting with 09</string>
+    <string name="err_role">Please choose a role</string>
+
+
+    <string name="nav_home">Home</string>
+    <string name="nav_reports">My reports</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_overview">Control</string>
+    <string name="nav_incidents">Reports</string>
+    <string name="nav_manage">Manage</string>
+    <string name="nav_assistant">Assistant</string>
+    <string name="nav_profile">Profile</string>
+    <string name="err_category">Please choose a category</string>
+    <string name="err_description">Please describe the incident (at least 10 characters)</string>
+    <string name="err_count">Enter a number from 1 to 999</string>
+    <string name="widget_label">iResponse SOS</string>
+    <string name="widget_description">One-tap Police, Fire, DRRMO and Medical buttons on your home screen</string>
+    <string name="widget_police">Police</string>
+    <string name="widget_fire">Fire</string>
+    <string name="widget_drrmo">DRRMO</string>
+    <string name="widget_medical">Medical</string>
+    <string name="widget_cd_police">Call police</string>
+    <string name="widget_cd_fire">Call fire station</string>
+    <string name="widget_cd_drrmo">Call DRRMO</string>
+    <string name="widget_cd_medical">Call medical help</string>
+
+    <!-- Redesign Stage B: Home -->
+    <string name="home_title">Who do you need help from?</string>
+</resources>

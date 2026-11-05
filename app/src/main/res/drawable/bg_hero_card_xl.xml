@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home header: same theme-colour fill as bg_hero_card, larger radius -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="?attr/rlPrimary" />
+    <corners android:radius="28dp" />
+</shape>

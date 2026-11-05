@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:icon="@drawable/ic_nav_chart" android:title="@string/nav_overview" />
+    <item android:id="@+id/nav_incidents" android:icon="@drawable/ic_nav_tasks" android:title="@string/nav_incidents" />
+    <item android:id="@+id/nav_map" android:icon="@drawable/ic_nav_map" android:title="@string/nav_map" />
+    <item android:id="@+id/nav_assistant" android:icon="@drawable/ic_nav_assistant" android:title="@string/nav_assistant" />
+    <item android:id="@+id/nav_manage" android:icon="@drawable/ic_nav_people" android:title="@string/nav_manage" />
+</menu>

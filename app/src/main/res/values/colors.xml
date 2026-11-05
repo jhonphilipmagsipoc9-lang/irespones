@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RescueLink design system: colour tokens -->
+    <!-- Brand -->
+    <color name="navy">#0A1F44</color>
+    <color name="primary">#0A1F44</color>
+    <color name="secondary_blue">#2563EB</color>
+    <color name="primary_container">#DCE6FA</color>
+    <color name="secondary_container">#E0EAFF</color>
+    <color name="hero_start">#0A1F44</color>
+    <color name="hero_end">#1A4B9B</color>
+    <!-- Surfaces -->
+    <color name="background">#F3F5FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#EEF2FA</color>
+    <color name="pale_blue">#E8EEF9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="border">#E1E6F0</color>
+    <!-- Text -->
+    <color name="text_main">#0B1B3A</color>
+    <color name="text_secondary">#5F6C86</color>
+    <!-- Semantic -->
+    <color name="critical">#D92D20</color>
+    <color name="coral_pale">#FDECEA</color>
+    <color name="coral_border">#F7C6C1</color>
+    <color name="amber">#D97706</color>
+    <color name="amber_pale">#FEF3C7</color>
+    <color name="green">#15803D</color>
+    <color name="ok_green">#16A34A</color>
+    <color name="muted_teal">#0F8B6D</color>
+    <!-- Services -->
+    <color name="svc_police">#1E4FA3</color>
+    <color name="svc_fire">#E8590C</color>
+    <color name="svc_drrmo">#0F8B6D</color>
+    <color name="svc_medical">#D92D20</color>
+    <color name="call_bg">#0A1F44</color>
+    <!-- Soft tints used behind icons and stat tiles -->
+    <color name="tint_blue">#E0EAFF</color>
+    <color name="tint_pink">#FFE4E1</color>
+    <color name="tint_lime">#FFF4CC</color>
+    <color name="tint_orange">#FFEAD5</color>
+    <color name="tint_green">#DCFCE7</color>
+
+    <!-- ===== Redesign Stage A: additions only (no existing token renamed or changed) ===== -->
+    <!-- SOS / emergency surfaces. sos_red vs white = 6.5:1 either way round. -->
+    <color name="sos_red">#B42318</color>
+    <color name="sos_red_pressed">#912018</color>
+    <color name="sos_red_pale">#FEE4E2</color>
+    <color name="on_sos_muted">#FFFFFFE6</color>
+    <!-- Secondary text that stays 4.5:1 or better on every tint_* tile -->
+    <color name="text_on_tint">#3B4766</color>
+    <!-- Visible keyboard / switch-access focus -->
+    <color name="focus_ring">#1D4ED8</color>
+    <!-- Severity: strip = the coloured bar, text = label text, bg = chip fill. Always pair with an icon or word. -->
+    <color name="sev_critical">#D92D20</color>
+    <color name="sev_critical_text">#B42318</color>
+    <color name="sev_critical_bg">#FDECEA</color>
+    <color name="sev_high">#EA580C</color>
+    <color name="sev_high_text">#9A3412</color>
+    <color name="sev_high_bg">#FFEAD5</color>
+    <color name="sev_medium">#D97706</color>
+    <color name="sev_medium_text">#92400E</color>
+    <color name="sev_medium_bg">#FEF3C7</color>
+    <color name="sev_low">#15803D</color>
+    <color name="sev_low_text">#166534</color>
+    <color name="sev_low_bg">#DCFCE7</color>
+    <color name="sev_info">#2563EB</color>
+    <color name="sev_info_text">#1D4ED8</color>
+    <color name="sev_info_bg">#E0EAFF</color>
+</resources>

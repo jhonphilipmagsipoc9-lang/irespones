@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tag_press" type="id" />
+    <item name="tag_entered" type="id" />
+    <item name="tag_decorated" type="id" />
+    <item name="tag_map_init" type="id" />
+    <item name="tag_map_fit" type="id" />
+</resources>
