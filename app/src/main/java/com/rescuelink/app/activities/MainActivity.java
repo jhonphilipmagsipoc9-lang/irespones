@@ -40,3 +40,4 @@ public class MainActivity extends AppCompatActivity {
         }, SPLASH_MS);
     }
 }
+// GitHub connection test
